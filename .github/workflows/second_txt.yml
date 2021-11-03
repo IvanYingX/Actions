@@ -33,6 +33,4 @@ jobs:
           git config --local user.name "IvanYingX"
           git add hello.txt
           git commit -m "Add txt file"
-      
-      - name: action-push
-        uses: ludeeus/action-push@0.0.1
+          git push
