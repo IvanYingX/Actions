@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --local user.email "ying.yingxuan@hotmail.com"
           git config --local user.name "IvanYingX"
-          git add ./output
+          git add hello.txt
           git commit -m "Add txt file"
       
       - name: push files
