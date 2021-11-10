@@ -32,4 +32,4 @@ jobs:
       - name: list
         run: |
           ls
-          mv issues.json $GITHUB_WORKSPACE
+          cat issues.json
