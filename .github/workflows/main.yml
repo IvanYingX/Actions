@@ -32,5 +32,4 @@ jobs:
       - name: list
         run: |
           ls
-          mv $GITHUB_WORKSPACE/* .
-          ls
+          mv issues.json $GITHUB_WORKSPACE
