@@ -1,0 +1,17 @@
+name: Content Tracker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: life-efficient/Content-Tracker-Action@v1.1.7
+        with: 
+          args:
+            ${{ secrets.SLACK_TOKEN }}
+            ${{ secrets.PUBLICPAT }}
+            Actions
